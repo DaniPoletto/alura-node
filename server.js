@@ -1,9 +1,15 @@
 const http = require("http")
 const port = 3000;
 
+const rotas = {
+    '/' : 'Node.js Course',
+    '/books' : 'List of books',
+    '/authors' : 'List of authors',
+}
+
 const server = http.createServer((req, res) => {
     res.writeHead(200, {'Content-Type':'text/plain'});
-    res.end('Node.js Course');
+    res.end(rotas[req.url]);
 })
 
 server.listen(port, () => {
