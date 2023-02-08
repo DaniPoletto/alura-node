@@ -5,6 +5,7 @@ const rotas = {
     '/' : 'Node.js Course',
     '/books' : 'List of books',
     '/authors' : 'List of authors',
+    '/publishers' : 'List of publishers',
 }
 
 const server = http.createServer((req, res) => {
