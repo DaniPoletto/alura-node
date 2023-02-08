@@ -13,7 +13,7 @@ node server.js
 
 ## Installing Nodemon Library
 ```
-npm install nodemon@2.0.15 -D
+npm install nodemon -D
 ```
 
 
