@@ -11,7 +11,7 @@ npm init -y
 node server.js
 ```
 
-## Installing Nodemon Librabry
+## Installing Nodemon Library
 ```
 npm install nodemon@2.0.15
 ```
