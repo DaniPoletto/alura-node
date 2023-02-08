@@ -5,3 +5,10 @@
 ```
 npm init -y
 ```
+
+## Starting Node.js's local development server
+```
+node server.js
+```
+
+
